@@ -37,6 +37,7 @@ function drag(){
 	document.onclick = function(){
 			loginStatePanel.style.display = 'none';
 		}
+    
 	for(var i = 0; i<list.length; i++){
 		list[i].onmouseover = function(){
 			this.style.background='#567'
